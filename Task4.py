@@ -17,4 +17,4 @@ def countAverage(student_scores):
     return sorted(averages, key=lambda x: (-x[1], x[0]))
 
 
-print(countAverage(student_scores))
+print(countAverage(student_scores))     
